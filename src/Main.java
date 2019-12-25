@@ -3,11 +3,11 @@ import java.util.concurrent.Semaphore;
 
 public class Main {
     public static void main(String[] args) {
-        InputData();
+        inputData();
     }
 
 
-    static void InputData(){
+    static void inputData(){
         int pepleCount;
         int maxPeople;
         Scanner scanner = new Scanner(System.in);
