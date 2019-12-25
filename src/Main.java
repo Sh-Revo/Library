@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Введите макс кол-во в библиотеке ");
         maxPeople = scanner.nextInt();
         Semaphore sem = new Semaphore(maxPeople);
+        //Door door = new Door();
         for (int i=1; i<=pepleCount; i++) {
             new Library(sem,i).start();
         }
